@@ -137,7 +137,7 @@ $(document).ready(function() {
 
   function createBackCardImage() {
     $('<img />').attr({
-      'src': "../images/backOfCard.jpg",
+      'src': "./images/backOfCard.jpg",
       'class': 'dealerCard',
       'id': 'dealerBackCard'
     }).appendTo('.dealerCards');
