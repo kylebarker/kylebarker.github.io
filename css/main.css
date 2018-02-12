@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+}
+
+.mainHead{
+  background-color: #292829;
+  position: relative;
+}
+
+.title{
+  color: #6EB43F;
+  font-size: 5.5vh;
+  margin-top: 1vh;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.titleSlogan{
+  padding-left: 0.9%;
+  color: white;
+  font-size: 2.5vh;
+  margin-top: -2.6vh;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.mainBody{
+  background-color: #B4AFAC;
+  position: relative;
+}
+
+.dealerTitle{
+  height:3.5vh;
+  color: white;
+  font-size: 2.5vh;
+  width: 100%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.dealerCards{
+  background-color: white;
+  height:36vh;
+}
+
+.gameOverButton{
+  background-color: #292829;
+  color: white;
+  width: 12%;
+  font-size: 2.8vh;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: .7%;
+  height: 20vh;
+  margin-top: -21vh;
+  margin-left: 1.5%;
+  border-radius: 5%;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+}
+
+.gameOverButton:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.gameOverButton:hover {
+    background-color: #6EB43F;
+
+}
+
+
+.dealerCard {
+  height: 28vh;
+  width:21vh;
+  position: relative;
+  top:3.5vh;
+  display: inline-block;
+  margin-left: 12px;
+  left: 260px;
+}
+
+
+.gameMessage{
+  height:3.6vh;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  background-color: #292829;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.messageBar{
+  display: inline-block;
+  margin-left: 15%;
+  position: absolute;
+}
+
+.amountInPlay{
+  display: inline-block;
+  margin-top: 0.2vh;
+}
+
+.playerCardTotal{
+  left:15%;
+  margin-top: 0.2vh;
+}
+
+.dealerCardTotal{
+  left:45%;
+  margin-top: 0.2vh;
+}
+
+.gameMessageText{
+  left:65%;
+  margin-top: 0.2vh;
+}
+
+.userTitle{
+  height:3.6vh;
+  color: white;
+  font-size: 2.5vh;
+  width: 100%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.playerOptions{
+  background-color: #292829;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.balanceAmount{
+  height: 8vh;
+  background-color: #292829;
+  color:white;
+}
+
+.balanceText{
+  color:white;
+  font-size: 2vh;
+  padding-top: 2.5vh;
+  margin-left: -4%;
+}
+
+.decreaseBet{
+  height:8vh;
+  background-color: #F7F7F7;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+
+.decreaseBet:hover {
+    background-color: darkgrey;
+}
+
+.betAmount{
+  height: 8vh;
+  background-color: lightgrey;
+}
+
+.betText{
+  font-size: 1.8vh;
+  padding-top: 2.7vh;
+  margin-left: -4%;
+}
+
+.increaseBet{
+  height:8vh;
+  background-color: #F7F7F7;
+  font-size: 20px;
+  color: black;
+  border: none;
+}
+
+.increaseBet:hover {
+    background-color: darkgrey;
+}
+
+.btn-group button {
+    background-color: #6EB43F;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    width: 115%;
+    display: block;
+    height:6.45vh;
+    margin-left: -8%;
+    font-size: 2.5vh;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #45862C;
+}
+
+.playerCards{
+  background-color: white;
+  height: 41.7vh;
+}
+
+.playerCard {
+  height: 28vh;
+  width:21vh;
+  position: relative;
+  display: inline-block;
+  margin-left: 12px;
+  left: 20px;
+  top: 50px;
+}
